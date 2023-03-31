@@ -1,0 +1,26 @@
+.welcome {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 60vh;
+}
+
+.text {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+@media (max-width: 1079px) {
+  .text {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer {
+  color: #ffffff;
+  position: absolute;
+  height: 100px;
+  background-color: #3c0080;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > p {
+  align-self: center;
+  padding: 6px;
+}

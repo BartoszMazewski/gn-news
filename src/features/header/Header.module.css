@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  height: 100px;
+  background-color: #3c0080;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.header > a {
+  font-size: 72px;
+  align-self: center;
+  color: #ffffff;
+}
+
+.button {
+  align-self: center;
+  font-size: 16px;
+  width: 120px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: #3c0080;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.button:hover{
+  transition: 1s;
+  border-color: #3c0080;
+}
+
+@media (max-width: 1079px) {
+  .header > a {
+    font-size: 64px;
+  }
+  
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header > a {
+    font-size: 40px;
+  }
+
+  .button {
+    font-size: 12px;
+    width: 80px;
+    height: 40px;
+    padding: 2px 4px;
+  }
+}

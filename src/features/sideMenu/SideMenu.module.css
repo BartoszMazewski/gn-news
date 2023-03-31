@@ -1,0 +1,45 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #000000;
+}
+
+
+.menu {
+  padding: 0 32px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.menuItem {
+  display: flex;
+  padding: 10px 0;
+}
+
+.menuItem a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.flag {
+  height: 10px;
+  padding: 2px 8px 0 0;
+}
+
+@media (max-width: 1079px) {
+  .menu {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    padding: 0 4px 0 0;
+  }
+
+  .flag {
+    height: 10px;
+    padding: 1px 8px 0 0;
+  }
+}
